@@ -1,0 +1,37 @@
+/* стилі до index.htl */
+
+.first-part {
+    color:dodgerblue;
+}
+.second-part {
+    color:black;
+}
+.button {
+    background-color:dodgerblue;
+    color:white;
+}
+.link:hover {
+    color:mediumblue;
+}
+.link {
+    text-decoration: none;
+    color:black;
+}
+.logo {
+    text-decoration: none;
+}
+.footer-numb {
+    color:darkgray;
+}
+.header-numb {
+    color:dimgray;
+}
+/* .place {
+    color:white;
+} */
+/* .logo-page {
+    color: white;
+ } */
+ .text {
+    color: dimgray;
+ }
