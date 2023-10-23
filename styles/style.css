@@ -1,0 +1,35 @@
+.first-part {
+    color: dodgerblue;
+}
+
+.second-part {
+    color: black;
+}
+.logo {
+    text-decoration: none;
+}
+.link:hover {
+    color: mediumblue;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+.button:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+.footer-numb {
+    color: darkgray;
+}
+
+.header-numb {
+    color: dimgray;
+}
+.text {
+     color: dimgray;
+}
+/* .place {
+    color:white;
+} */
