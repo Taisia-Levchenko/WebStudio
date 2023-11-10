@@ -9,6 +9,7 @@
 .button {
     background-color:dodgerblue;
     color:white;
+    font-family: 'Roboto', sans-serif;
 }
 .link:hover {
     color:mediumblue;
@@ -16,9 +17,11 @@
 .link {
     text-decoration: none;
     color:black;
+    font-family: 'Roboto', sans-serif;
 }
 .logo {
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
 }
 .footer-numb {
     color:darkgray;
@@ -26,12 +29,17 @@
 .header-numb {
     color:dimgray;
 }
-/* .place {
-    color:white;
-} */
+.place {
+    /* color:white; */
+    font-family: 'Roboto', sans-serif;
+} 
 /* .logo-page {
     color: white;
- } */
- .text {
+} */
+.text {
     color: dimgray;
- }
+    font-family: 'Roboto', sans-serif;
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+}
