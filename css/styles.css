@@ -1,6 +1,6 @@
-/* стилі до index.htl */
+/* стилі до index.html */
 
-.first-part {
+/* .first-part {
     color:dodgerblue;
 }
 .second-part {
@@ -29,17 +29,18 @@
 .header-numb {
     color:dimgray;
 }
-.place {
+.place { */
     /* color:white; */
-    font-family: 'Roboto', sans-serif;
-} 
+    /* font-family: 'Roboto', sans-serif;
+}  */
 /* .logo-page {
     color: white;
 } */
-.text {
+/* .text {
     color: dimgray;
     font-family: 'Roboto', sans-serif;
 }
 .title {
     font-family: 'Roboto', sans-serif;
-}
+} */
+
