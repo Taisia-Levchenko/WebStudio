@@ -1,46 +1,101 @@
-/* стилі до index.html */
-
-/* .first-part {
-    color:dodgerblue;
+:root {
+    --hover: #2196F3;
+    --second: #000;
+    --place: #FFF;
+    --title: #212121;
+    --text: #757575;
+    --background: #2F303A;
+    --foot: rgba(255, 255, 255, 0.60);
 }
-.second-part {
-    color:black;
+body { 
+    font-family: 'Roboto', serif;
+    font-weight: 400px;
+    font-style: normal;
+    line-height: normal;
+    color:var(--title);
+    font-size: 14px;
 }
-.button {
-    background-color:dodgerblue;
-    color:white;
-    font-family: 'Roboto', sans-serif;
-}
-.link:hover {
-    color:mediumblue;
-}
-.link {
+a {
     text-decoration: none;
-    color:black;
-    font-family: 'Roboto', sans-serif;
+}
+a:hover {
+    color:var(--hover)
+}
+ul{
+    list-style-type: none;
 }
 .logo {
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-family: 'Raleway', serif;
+    font-weight: 700px;
 }
-.footer-numb {
-    color:darkgray;
+.first-part {
+    color:var(--hover);
 }
-.header-numb {
-    color:dimgray;
+.second-part {
+    color:var(--second);
 }
-.place { */
-    /* color:white; */
-    /* font-family: 'Roboto', sans-serif;
-}  */
-/* .logo-page {
-    color: white;
-} */
-/* .text {
-    color: dimgray;
-    font-family: 'Roboto', sans-serif;
+.nav-list_link {
+    color: var(--title);
+    font-weight: 500px;
 }
-.title {
-    font-family: 'Roboto', sans-serif;
-} */
-
+.main-section {
+    width: 696px;
+    height: 120px;
+    /* color:var(--place);
+    background-color:var(--background);     */
+}
+.sect-title {
+    font-size: 36px;
+    font-weight: 700px;
+    letter-spacing: 1.08px;
+}
+.main-section_btn{
+    color: var(--place);
+    background-color: var(--hover);
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 187.5%;
+}
+.main-section_title {
+    font-size: 44px;
+    font-weight: 900px;
+    line-height: 136.364%;
+    text-transform: uppercase;
+    letter-spacing: 2.64px;
+}
+.section_title {
+    font-weight: 700px;
+    letter-spacing: 0.42px;
+}
+.section_text {
+    color: var(--text);
+    line-height: 171.429%;
+    letter-spacing: 0.42px;
+}
+.sct-title {
+    font-size: 36px;
+    font-weight: 700px;
+    letter-spacing: 1.08px;
+}
+.sct-item_title {
+    font-size: 16px;
+    font-weight: 500px;
+    letter-spacing: 0.48px;
+}
+.sct-item_text {
+    font-size: 16px;
+    letter-spacing: 0.48px;
+}
+.footer {
+    width: 1600px;
+    height: 252px;
+    background-color: var(--background);
+}
+.footer-place {
+    color:var(--place);
+}
+.link {
+    color:var(--foot);
+}
