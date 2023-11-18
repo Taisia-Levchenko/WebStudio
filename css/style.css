@@ -49,3 +49,23 @@
 }  */
 
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--hover)
+}
+.logo {
+    font-size: 26px;
+    font-family: 'Raleway', serif;
+    font-weight: 700px;
+}
+
+.first-part {
+    color: var(--hover);
+}
+
+.second-part {
+    color: var(--second);
+}
