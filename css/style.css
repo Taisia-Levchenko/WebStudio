@@ -101,7 +101,7 @@ ul {
     font-size: 16px;
     font-style: normal;
     font-weight: 500px;
-    line-height: 162.5%;
+    line-height: 1.63;
     letter-spacing: 0.48px;
     width: 125px;
     height: 38px;
@@ -115,12 +115,12 @@ ul {
 .main-list_title{
     font-size: 18px;
     font-weight: 700px;
-    line-height: 200%;
+    line-height: 2;
     letter-spacing: 1.08px;
 }
 .main-list_text {
     color: var(--text);
-    line-height: 187.5%;
+    line-height: 1.88;
     letter-spacing: 0.48px;
 }
 .footer {

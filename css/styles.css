@@ -56,12 +56,12 @@ ul{
     font-family: 'Roboto', serif;
     font-size: 16px;
     font-weight: 700px;
-    line-height: 187.5%;
+    line-height: 1.88;
 }
 .main-section_title {
     font-size: 44px;
     font-weight: 900px;
-    line-height: 136.364%;
+    line-height: 1.36;
     text-transform: uppercase;
     letter-spacing: 2.64px;
 }
@@ -71,7 +71,7 @@ ul{
 }
 .section_text {
     color: var(--text);
-    line-height: 171.429%;
+    line-height: 1.71;
     letter-spacing: 0.42px;
 }
 .sct-title {
