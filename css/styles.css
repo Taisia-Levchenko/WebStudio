@@ -99,3 +99,6 @@ ul{
 .link {
     color:var(--foot);
 }
+.footer-second-part {
+    color:var(--place);
+}

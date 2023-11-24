@@ -103,8 +103,8 @@ ul {
     font-weight: 500px;
     line-height: 1.63;
     letter-spacing: 0.48px;
-    width: 125px;
-    height: 38px;
+    /* width: 125px;
+    height: 38px; */
     border: none;
     border-radius: 10px;
 }
@@ -135,4 +135,7 @@ ul {
 
 .link {
     color: var(--foot);
+}
+.footer-second-part {
+    color: var(--place);
 }
