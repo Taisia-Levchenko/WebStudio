@@ -37,13 +37,15 @@ ul{
 }
 .nav-list_link {
     color: var(--title);
+    font-size: 14px;
     font-weight: 500px;
+    letter-spacing: 0.28px;
 }
 .main-section {
-    width: 696px;
-    height: 120px;
-    /* color:var(--place);
-    background-color:var(--background);     */
+    /* width: 696px;
+    height: 120px; */
+    color:var(--place);
+    background-color:var(--background); 
 }
 .sect-title {
     font-size: 36px;
