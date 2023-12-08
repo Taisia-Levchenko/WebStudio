@@ -1,3 +1,4 @@
+/* стилі до index.html */
 :root {
     --hover: #2196F3;
     --second: #000;
@@ -24,6 +25,42 @@ a:hover {
 ul{
     list-style-type: none;
 }
+
+.container {
+    width: 840px;
+    margin: 0px auto;
+    padding: 0 15px;
+}
+.link-container {
+    /* height: 80px;
+    width: 1600px; */
+    margin-bottom: 32px;
+}   
+.head-container {
+    /* width: 1600px;
+    height: 600px; */
+    margin-bottom: 94px;
+}  
+.text-container {
+    /* width: 1170px;
+    height: 98px; */
+    margin-bottom: 94px;
+}
+.doing-container {
+    /* width: 1170px;
+    height: 386px; */
+    margin-bottom: 94px;
+}
+/* .team-container {
+    width: 1600px;
+    height: 648px; 
+} */
+.footer-container {
+    width: 1600px;
+    height: 252px; 
+}
+
+
 .logo {
     font-size: 26px;
     font-family: 'Raleway', serif;
@@ -35,11 +72,22 @@ ul{
 .second-part {
     color:var(--second);
 }
+/* .nav-list {
+    margin-bottom: 32px;
+} */
 .nav-list_link {
     color: var(--title);
     font-size: 14px;
     font-weight: 500px;
     letter-spacing: 0.28px;
+}
+.nav-list_item {
+    display: inline;
+    margin: 16px 25px;
+}
+.header-section_item {
+    display: inline;
+    margin: 16px 25px;
 }
 .main-section {
     /* width: 696px;
@@ -59,6 +107,7 @@ ul{
     font-size: 16px;
     font-weight: 700px;
     line-height: 1.88;
+    margin-bottom: 200px;
 }
 .main-section_title {
     font-size: 44px;
@@ -66,6 +115,9 @@ ul{
     line-height: 1.36;
     text-transform: uppercase;
     letter-spacing: 2.64px;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-top: 200px;
 }
 .section_title {
     font-weight: 700px;
@@ -80,27 +132,38 @@ ul{
     font-size: 36px;
     font-weight: 700px;
     letter-spacing: 1.08px;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
+
 .sct-item_title {
     font-size: 16px;
     font-weight: 500px;
     letter-spacing: 0.48px;
+    padding: 30px 70px 10px 0px;
 }
 .sct-item_text {
     font-size: 16px;
     letter-spacing: 0.48px;
 }
 .footer {
-    width: 1600px;
-    height: 252px;
     background-color: var(--background);
 }
 .footer-place {
     color:var(--place);
+    padding-top: 6px; 
+    padding-bottom: 9px;
+    margin: 0;
 }
 .link {
     color:var(--foot);
 }
+.footer-div {
+    padding-top: 60px;
+}
 .footer-second-part {
     color:var(--place);
+}
+.footer-logo {
+    margin-top: 60px;
 }
