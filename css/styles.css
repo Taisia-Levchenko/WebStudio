@@ -25,40 +25,18 @@ a:hover {
 ul{
     list-style-type: none;
 }
+ul, p, h1, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
 
 .container {
-    width: 840px;
+    width: 870px;
     margin: 0px auto;
-    padding: 0 15px;
+    outline: 2px solid red;
 }
-.link-container {
-    /* height: 80px;
-    width: 1600px; */
-    margin-bottom: 32px;
-}   
-.head-container {
-    /* width: 1600px;
-    height: 600px; */
-    margin-bottom: 94px;
-}  
-.text-container {
-    /* width: 1170px;
-    height: 98px; */
-    margin-bottom: 94px;
-}
-.doing-container {
-    /* width: 1170px;
-    height: 386px; */
-    margin-bottom: 94px;
-}
-/* .team-container {
-    width: 1600px;
-    height: 648px; 
-} */
-.footer-container {
-    width: 1600px;
-    height: 252px; 
-}
+
 
 
 .logo {
@@ -72,26 +50,30 @@ ul{
 .second-part {
     color:var(--second);
 }
-/* .nav-list {
+.nav-list {
     margin-bottom: 32px;
-} */
+}
 .nav-list_link {
     color: var(--title);
     font-size: 14px;
     font-weight: 500px;
     letter-spacing: 0.28px;
 }
-.nav-list_item {
+/* .nav-list_item {
     display: inline;
     margin: 16px 25px;
-}
-.header-section_item {
+} */
+/* .header-section_item {
     display: inline;
     margin: 16px 25px;
+} */
+.main .container {
+    padding-bottom: 94px;
+    outline: 2px dotted blue;
 }
 .main-section {
-    /* width: 696px;
-    height: 120px; */
+    width: 1600px;
+    height: 600px;
     color:var(--place);
     background-color:var(--background); 
 }
@@ -107,7 +89,7 @@ ul{
     font-size: 16px;
     font-weight: 700px;
     line-height: 1.88;
-    margin-bottom: 200px;
+    margin-bottom: 200px; 
 }
 .main-section_title {
     font-size: 44px;
@@ -119,6 +101,10 @@ ul{
     padding-bottom: 30px;
     padding-top: 200px;
 }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .section_title {
     font-weight: 700px;
     letter-spacing: 0.42px;
@@ -128,42 +114,44 @@ ul{
     line-height: 1.71;
     letter-spacing: 0.42px;
 }
+.sect {
+    padding-bottom: 94px;
+}
 .sct-title {
     font-size: 36px;
     font-weight: 700px;
     letter-spacing: 1.08px;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    /* padding-top: 94px;
+    padding-bottom: 50px; */
 }
 
 .sct-item_title {
     font-size: 16px;
     font-weight: 500px;
     letter-spacing: 0.48px;
-    padding: 30px 70px 10px 0px;
+    /* padding: 30px 70px 10px 0px; */
 }
 .sct-item_text {
     font-size: 16px;
     letter-spacing: 0.48px;
+}
+.footer .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    outline: 2px double deeppink;
 }
 .footer {
     background-color: var(--background);
 }
 .footer-place {
     color:var(--place);
-    padding-top: 6px; 
+    /* padding-top: 6px; 
     padding-bottom: 9px;
-    margin: 0;
+    margin: 0;  */
 }
 .link {
     color:var(--foot);
 }
-.footer-div {
-    padding-top: 60px;
-}
 .footer-second-part {
     color:var(--place);
-}
-.footer-logo {
-    margin-top: 60px;
 }
