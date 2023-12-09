@@ -27,6 +27,28 @@ a:hover {
 ul {
     list-style-type: none;
 }
+.container {
+    width: 840px;
+    margin: 0px auto;
+    padding: 0 15px;
+}
+.link-container {
+    /* height: 80px;
+    width: 1600px; */
+    margin-bottom: 32px;
+}
+.btn-container {
+    margin-top: 94px;
+}
+.list-container {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+.ninth-item {
+    margin-bottom: 94px;
+}
+
 .logo {
     font-size: 26px;
     font-family: 'Raleway', serif;
@@ -40,11 +62,19 @@ ul {
 .second-part {
     color: var(--second);
 }
+.nav-list_item {
+    display: inline;
+    margin: 16px 25px;
+}
 .nav-list_link {
     color:var(--title);
     font-size: 14px;
     font-weight: 500px;
     letter-spacing: 0.28px;
+}
+.header-section_item {
+    display: inline;
+    margin: 16px 25px;
 }
 .btn {
     color:var(--title);
@@ -55,25 +85,38 @@ ul {
     font-weight: 500px;
     line-height: 1.63;
     letter-spacing: 0.48px;
-    /* width: 125px;
-    height: 38px; */
+    width: 125px;
+    height: 38px; 
     border: none;
     border-radius: 10px;
+    margin-right: 8px;
+    margin-bottom: 20px;
 }
 .btn:hover{
     color:var(--place);
     background-color: var(--hover);
 }
+/* 
+.main-list_item {
+    display: inline;
+    margin-bottom: 30px;
+} */
 .main-list_title{
     font-size: 18px;
     font-weight: 700px;
     line-height: 2;
     letter-spacing: 1.08px;
+    margin: 0px 78px 4px 0px;
 }
 .main-list_text {
     color: var(--text);
     line-height: 1.88;
     letter-spacing: 0.48px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.main-list_img {
+    margin: 30px 30px 20px 0px;
 }
 .footer {
     width: 1600px;
@@ -88,6 +131,12 @@ ul {
 .link {
     color: var(--foot);
 }
+.footer-div {
+    padding-top: 60px;
+}
 .footer-second-part {
     color: var(--place);
+}
+.footer-logo {
+    margin-top: 60px;
 }
