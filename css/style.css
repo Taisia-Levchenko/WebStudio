@@ -87,7 +87,7 @@ ul, p, h4 {
     border: none;
     border-radius: 10px;
     margin-right: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-top: 94px;
 }
 .btn:hover{
@@ -113,7 +113,7 @@ ul, p, h4 {
     margin: 0px;
     margin-bottom: 20px;
 }
-/*.main-list_img {
+/* .main-list_img {
     margin: 30px 30px 20px 0px;
 } */
 .footer .container {

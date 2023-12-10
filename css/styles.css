@@ -71,7 +71,6 @@ ul, p, h1, h3, h4, h5 {
     margin: 16px 25px;
 } */
 .main .container {
-    padding-bottom: 94px;
     outline: 2px dotted blue;
 }
 .section-hero {
@@ -80,20 +79,16 @@ ul, p, h1, h3, h4, h5 {
     color:var(--place);
     background-color:var(--background); 
 }
-.sect-title {
-    font-size: 36px;
-    font-weight: 700px;
-    letter-spacing: 1.08px;
-}
-.section-hero_btn{
+.section-hero_btn {
     color: var(--place);
     background-color: var(--hover);
     font-family: 'Roboto', serif;
     font-size: 16px;
     font-weight: 700px;
     line-height: 1.88;
-    margin-bottom: 200px; 
+    margin-bottom: 200px;
 }
+
 .section-hero_title {
     font-size: 44px;
     font-weight: 900px;
@@ -104,23 +99,29 @@ ul, p, h1, h3, h4, h5 {
     padding-bottom: 30px;
     padding-top: 200px;
 }
-.section {
+.info {
+    margin-top: 94px;
+}
+.info-title {
+    font-size: 36px;
+    font-weight: 700px;
+    letter-spacing: 1.08px;
+}
+
+.doings {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.section_title {
+.doings_title {
     font-weight: 700px;
     letter-spacing: 0.42px;
 }
-.section_text {
+.doings_text {
     color: var(--text);
     line-height: 1.71;
     letter-spacing: 0.42px;
 }
-.sect {
-    padding-bottom: 94px;
-}
-.sct-title {
+.team-title {
     font-size: 36px;
     font-weight: 700px;
     letter-spacing: 1.08px;
@@ -129,13 +130,13 @@ ul, p, h1, h3, h4, h5 {
     padding-bottom: 50px; */
 }
 
-.sct-item_title {
+.team-item_title {
     font-size: 16px;
     font-weight: 500px;
     letter-spacing: 0.48px;
     /* padding: 30px 70px 10px 0px; */
 }
-.sct-item_text {
+.team-item_text {
     font-size: 16px;
     letter-spacing: 0.48px;
 }
