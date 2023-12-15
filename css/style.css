@@ -10,7 +10,7 @@
 }
 body {
     font-family: 'Roboto', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
     line-height: normal;
     color: var(--title);
@@ -32,16 +32,18 @@ ul, p, h4 {
     padding: 0;
 }
 .container {
-    width: 870px;
+    width: 1200px;
     margin: 0px auto;
-    outline: 2px solid red;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* outline: 2px solid red; */
 }
 
 
 .logo {
     font-size: 26px;
     font-family: 'Raleway', serif;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .first-part {
@@ -51,9 +53,9 @@ ul, p, h4 {
 .second-part {
     color: var(--second);
 }
-.nav-list {
+/* .nav-list {
     margin-bottom: 32px;
-}
+} */
 /* .nav-list_item {
     display: inline;
     margin: 16px 25px;
@@ -61,7 +63,7 @@ ul, p, h4 {
 .nav-list_link {
     color:var(--title);
     font-size: 14px;
-    font-weight: 500px;
+    font-weight: 500;
     letter-spacing: 0.28px;
 }
 /* .header-section_item {
@@ -69,8 +71,8 @@ ul, p, h4 {
     margin: 16px 25px;
 } */
 .main .container {
-    padding-bottom: 94px;
-    outline: 2px dotted blue;
+    padding-bottom: 94px;  
+    /* outline: 2px dotted blue; */
 }
 
 .btn {
@@ -79,7 +81,7 @@ ul, p, h4 {
     font-family: 'Roboto', serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 1.63;
     letter-spacing: 0.48px;
     width: 125px;
@@ -87,8 +89,8 @@ ul, p, h4 {
     border: none;
     border-radius: 10px;
     margin-right: 8px;
-    margin-bottom: 50px;
-    margin-top: 94px;
+    /* margin-bottom: 50px;
+    margin-top: 94px;  */
 }
 .btn:hover{
     color:var(--place);
@@ -101,10 +103,10 @@ ul, p, h4 {
 } */
 .main-list_title{
     font-size: 18px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 2;
     letter-spacing: 1.08px;
-    margin: 0px 78px 4px 0px;
+    margin: 0px 74px 4px 0px;
 }
 .main-list_text {
     color: var(--text);
@@ -119,7 +121,7 @@ ul, p, h4 {
 .footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
-    outline: 2px double deeppink;
+    /* outline: 2px double deeppink; */
 }
  .footer {
     /*width: 1600px;

@@ -10,7 +10,7 @@
 }
 body { 
     font-family: 'Roboto', serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
     line-height: normal;
     color:var(--title);
@@ -32,9 +32,11 @@ ul, p, h1, h3, h4, h5 {
 
 
 .container {
-    width: 870px;
+    width: 1200px;
     margin: 0px auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -42,7 +44,7 @@ ul, p, h1, h3, h4, h5 {
 .logo {
     font-size: 26px;
     font-family: 'Raleway', serif;
-    font-weight: 700px;
+    font-weight: 700;
 }
 .first-part {
     color:var(--hover);
@@ -50,18 +52,18 @@ ul, p, h1, h3, h4, h5 {
 .second-part {
     color:var(--second);
 }
-.nav-list {
+/* .nav-list {
     margin-bottom: 32px;
-}
+} */
 .nav-list_link {
     color: var(--title);
     font-size: 14px;
-    font-weight: 500px;
+    font-weight: 500;
     letter-spacing: 0.28px;
 }
-.header-section_list {
+/* .header-section_list {
     margin-bottom: 32px;
-}
+} */
 /* .nav-list_item {
     display: inline;
     margin: 16px 25px;
@@ -70,9 +72,9 @@ ul, p, h1, h3, h4, h5 {
     display: inline;
     margin: 16px 25px;
 } */
-.main .container {
+/* .main .container {
     outline: 2px dotted blue;
-}
+} */
 .section-hero {
     width: 1600px;
     height: 600px;
@@ -84,36 +86,36 @@ ul, p, h1, h3, h4, h5 {
     background-color: var(--hover);
     font-family: 'Roboto', serif;
     font-size: 16px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 1.88;
     margin-bottom: 200px;
 }
 
 .section-hero_title {
     font-size: 44px;
-    font-weight: 900px;
+    font-weight: 900;
     line-height: 1.36;
     text-transform: uppercase;
     letter-spacing: 2.64px;
     margin: 0;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     padding-top: 200px;
 }
-.info {
+/* .info {
     margin-top: 94px;
-}
+} */
 .info-title {
     font-size: 36px;
-    font-weight: 700px;
+    font-weight: 700;
     letter-spacing: 1.08px;
 }
 
-.doings {
+/* .doings {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 .doings_title {
-    font-weight: 700px;
+    font-weight: 700;
     letter-spacing: 0.42px;
 }
 .doings_text {
@@ -123,7 +125,7 @@ ul, p, h1, h3, h4, h5 {
 }
 .team-title {
     font-size: 36px;
-    font-weight: 700px;
+    font-weight: 700;
     letter-spacing: 1.08px;
     padding-top: 94px;
     /* padding-top: 94px;
@@ -143,7 +145,7 @@ ul, p, h1, h3, h4, h5 {
 .footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
-    outline: 2px double deeppink;
+    /* outline: 2px double deeppink; */
 }
 .footer {
     background-color: var(--background);
