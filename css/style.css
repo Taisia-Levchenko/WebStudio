@@ -37,6 +37,7 @@ ul, p, h4 {
     padding-left: 15px;
     padding-right: 15px;
     /* outline: 2px solid red; */
+    display: flex;
 }
 
 
@@ -73,6 +74,7 @@ ul, p, h4 {
 .main .container {
     padding-bottom: 94px;  
     /* outline: 2px dotted blue; */
+    
 }
 
 .btn {
