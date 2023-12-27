@@ -43,12 +43,15 @@ ul, p, h4 {
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     font-size: 26px;
     font-family: 'Raleway', serif;
     font-weight: 700;
+    margin-right: 93px;
 }
 
 .first-part {
@@ -60,26 +63,24 @@ ul, p, h4 {
 }
 .nav-list {
     display: flex;
+    gap: 50px;
 }
 .div-header {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
-/* .nav-list_item {
-    display: inline;
-    margin: 16px 25px;
-} */
 .nav-list_link {
     color:var(--title);
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
-    margin-left: 50px;
 }
 .header-section_list {
     display: flex;
-    flex-direction: row-reverse;
+    gap: 50px;
 }
+
 .main .container {
     padding-bottom: 94px;  
     /* outline: 2px dotted blue; */
@@ -91,6 +92,8 @@ ul, p, h4 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 .btn {
     color:var(--title);
@@ -105,7 +108,6 @@ ul, p, h4 {
     height: 38px; 
     border: none;
     border-radius: 4px;
-    margin-right: 8px;
 }
 .btn:hover{
     color:var(--place);
@@ -114,6 +116,7 @@ ul, p, h4 {
 .main-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 /* 
 .main-list_item {
@@ -122,9 +125,8 @@ ul, p, h4 {
 } */
 .main-list_item {
     border: 1px solid var(--pics);
-    width: 370px; 
-    margin-left: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 20px;
+    /* width: 370px;  */
 }
 .main-list_title{
     font-size: 18px;
@@ -138,13 +140,8 @@ ul, p, h4 {
     color: var(--text);
     line-height: 1.88;
     letter-spacing: 0.48px;
-    margin: 0px;
-    margin-bottom: 20px;
     padding-left: 24px;
 }
-/* .foot {
-    margin-bottom: 0;
-} */
 
 .footer .container {
     padding-top: 60px;
@@ -154,20 +151,19 @@ ul, p, h4 {
 .footer {
     background-color: var(--background);
 }
-.footer-logo {
-    margin-bottom: 20px;
+.footer-sect {
+    flex-direction: column;
+    display: flex;
+    gap: 9px;
 }
 .footer-place {
     color: var(--place);
     margin-top: 20px;
-    margin-bottom: 9px;
 }
 .footer-list {
     display: flex;
     flex-direction: column;
-}
-.link-one {
-    margin-bottom: 9px;
+    gap: 9px;
 }
 .link {
     color: var(--foot);

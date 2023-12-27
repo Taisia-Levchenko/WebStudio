@@ -43,6 +43,8 @@ ul, p, h1, h3, h4, h5 {
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -50,6 +52,7 @@ ul, p, h1, h3, h4, h5 {
     font-size: 26px;
     font-family: 'Raleway', serif;
     font-weight: 700;
+    margin-right: 93px;
 }
 .first-part {
     color:var(--hover);
@@ -59,39 +62,34 @@ ul, p, h1, h3, h4, h5 {
 }
 .nav-list {
     display: flex;
+    gap: 50px;
 } 
 .div-header {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .nav-list_link {
     color: var(--title);
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
-    margin-left: 50px;
 }
 .header-section_list {
     /* margin: 32px 50px; */
     display: flex;
-    flex-direction: row-reverse;
-} 
-/* .nav-list_item {
-    display: inline;
-    margin: 16px 25px;
-} */
-/* .header-section_item {
-    display: inline;
-    margin: 16px 25px;
-} */
-/* .main .container {
-    outline: 2px dotted blue;
-} */
+    gap: 50px;
+}
 .section-hero {
-    width: 1600px;
-    height: 600px;
+    /* width: 1600px;
+    height: 600px;  */
     color:var(--place);
     background-color:var(--background); 
+}
+.section-hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .section-hero_btn {
     color: var(--place);
@@ -100,10 +98,10 @@ ul, p, h1, h3, h4, h5 {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
-    margin-bottom: 200px;
+    margin-bottom: 200px; 
     border-radius: 4px;
-    /* width: 216px;
-    text-align: center; */
+    width: 216px;
+    height: 50px;
 }
 
 .section-hero_title {
@@ -112,9 +110,8 @@ ul, p, h1, h3, h4, h5 {
     line-height: 1.36;
     text-transform: uppercase;
     letter-spacing: 2.64px;
-    margin: 0;
     margin-bottom: 30px;
-    width: 696px;
+    /* width: 696px; */
     padding-top: 200px;
     text-align: center;
 }
@@ -132,19 +129,23 @@ ul, p, h1, h3, h4, h5 {
 .info_text {
     padding-bottom: 94px;
 }
-.info_item {
-    margin-right: 30px;
+/* .info_item {
     width: 270px;
-}
+} */
 .info_list {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 30px;
 }
 /* .doings {
     padding-top: 94px;
     padding-bottom: 94px;
 } */
 
+.doings {
+    padding-bottom: 94px;
+}
 .doings-title {
     font-size: 36px;
     font-weight: 700;
@@ -155,48 +156,46 @@ ul, p, h1, h3, h4, h5 {
 .doings-list {
     display: flex;
     flex-direction: row;
+    gap: 30px;
 } 
 .doings_text {
     color: var(--text);
     line-height: 1.71;
     letter-spacing: 0.42px;
 }
-.doings-list_item {
-    margin-left: 30px;
-}
+
 .doings-list_photo {
     width: 370px;
     height: 294px;
-    padding-bottom: 94px;
 }
 .team-title {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
     padding-top: 94px;
-    /* padding-top: 94px;*/
     margin-bottom: 50px; 
     text-align: center;
-    width: 1200px;
+    /* width: 1200px; */
 }
-.team .container {
+.team  {
     background-color: var(--team);
-    width: 1600px;
+    /* width: 1600px; */
+    padding-bottom: 94px;
 }
 .team-list {
     display: flex;
-    width: 1200px;
-    padding-bottom: 94px;
+    /* width: 1200px; */
+    gap: 30px;
 }
 .team-item {
     background-color: var(--place);
-    width: 270px;
+    /* width: 270px; */
     /* height: 368px; */
-    margin-left: 30px;
+    padding-bottom: 30px;
 }
 .team-item_title {
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     letter-spacing: 0.48px;
     text-align: center;
     margin-top: 30px;
@@ -207,7 +206,6 @@ ul, p, h1, h3, h4, h5 {
     font-size: 16px;
     letter-spacing: 0.48px;
     text-align: center;
-    padding-bottom: 30px;
 }
 .team-item_img {
     height: 260px;
@@ -218,22 +216,22 @@ ul, p, h1, h3, h4, h5 {
     /* outline: 2px double deeppink; */
 }
 .footer {
+    font-size: 16px;
     background-color: var(--background);
 }
-.footer-logo {
-    margin-bottom: 20px;
+.footer-sect {
+    flex-direction: column;
+    display: flex;
+    gap: 9px;
 }
 .footer-place {
     color:var(--place);
     margin-top: 20px; 
-    margin-bottom: 9px;
 }
 .footer-list {
     display: flex;
     flex-direction: column;
-}
-.link-one {
-    margin-bottom: 9px;
+    gap: 9px;
 }
 .link {
     color:var(--foot);
