@@ -51,9 +51,10 @@ ul, p, h4 {
     font-size: 26px;
     font-family: 'Raleway', serif;
     font-weight: 700;
+}
+.header-logo {
     margin-right: 93px;
 }
-
 .first-part {
     color: var(--hover);
 }

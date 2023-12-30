@@ -52,6 +52,8 @@ ul, p, h1, h3, h4, h5 {
     font-size: 26px;
     font-family: 'Raleway', serif;
     font-weight: 700;
+}
+.header-logo {
     margin-right: 93px;
 }
 .first-part {
@@ -118,16 +120,16 @@ ul, p, h1, h3, h4, h5 {
 /* .info {
     margin-top: 94px;
 } */
+.info {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
 .info_title {
     /* font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
     width: 270px;  */
     margin-bottom: 10px;
-    padding-top: 94px;
-} 
-.info_text {
-    padding-bottom: 94px;
 }
 /* .info_item {
     width: 270px;
