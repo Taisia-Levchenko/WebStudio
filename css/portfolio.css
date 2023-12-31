@@ -77,7 +77,13 @@ ul, p, h4 {
     font-weight: 500;
     letter-spacing: 0.28px;
 }
-.header-section_list {
+.contact_link {
+    color: var(--title);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+.header-contact_list {
     display: flex;
     gap: 50px;
 }
@@ -85,7 +91,7 @@ ul, p, h4 {
 .main .container {
     padding-bottom: 94px;  
     /* outline: 2px dotted blue; */
-    width: 1170px;
+    width: 1200px;
 }
 .btn-cont {
     padding-bottom: 50px;
@@ -95,6 +101,7 @@ ul, p, h4 {
     align-items: center;
     justify-content: center;
     gap: 8px;
+    padding-bottom: 50px;
 }
 .btn {
     color:var(--title);
@@ -105,10 +112,11 @@ ul, p, h4 {
     font-weight: 500;
     line-height: 1.63;
     letter-spacing: 0.48px;
-    width: 125px;
-    height: 38px; 
+    /* width: 125px;
+    height: 38px;  */
     border: none;
     border-radius: 4px;
+    padding: 6px 22px;
 }
 .btn:hover{
     color:var(--place);
@@ -124,10 +132,11 @@ ul, p, h4 {
     display: inline;
     margin-bottom: 30px;
 } */
+
 .main-list_item {
     border: 1px solid var(--pics);
     padding-bottom: 20px;
-    /* width: 370px;  */
+    width: 370px; 
 }
 .main-list_title{
     font-size: 18px;

@@ -77,7 +77,13 @@ ul, p, h1, h3, h4, h5 {
     font-weight: 500;
     letter-spacing: 0.28px;
 }
-.header-section_list {
+.contact_link {
+    color: var(--title);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+.header-contact_list {
     /* margin: 32px 50px; */
     display: flex;
     gap: 50px;
