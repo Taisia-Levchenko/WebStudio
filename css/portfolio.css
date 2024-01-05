@@ -9,6 +9,9 @@
     --foot: rgba(255, 255, 255, 0.60);
     --pics: #EEE;
 }
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Roboto', serif;
     font-weight: 400;
@@ -87,6 +90,9 @@ ul, p, h4 {
     display: flex;
     gap: 50px;
 }
+.header-contact_item {
+    flex-basis: calc((100% - 50px) / 2);
+}
 
 .main .container {
     padding-bottom: 94px;  
@@ -102,6 +108,7 @@ ul, p, h4 {
     justify-content: center;
     gap: 8px;
     padding-bottom: 50px;
+    flex-basis: calc((100% - 4*8px) / 5);
 }
 .btn {
     color:var(--title);
@@ -117,6 +124,7 @@ ul, p, h4 {
     border: none;
     border-radius: 4px;
     padding: 6px 22px;
+    
 }
 .btn:hover{
     color:var(--place);
@@ -125,7 +133,7 @@ ul, p, h4 {
 .main-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 30px; 
 }
 /* 
 .main-list_item {
@@ -137,6 +145,7 @@ ul, p, h4 {
     border: 1px solid var(--pics);
     padding-bottom: 20px;
     width: 370px; 
+    flex-basis: calc((100% - 60px) / 3);
 }
 .main-list_title{
     font-size: 18px;
@@ -144,7 +153,6 @@ ul, p, h4 {
     line-height: 2;
     letter-spacing: 1.08px;
     padding-left: 24px;
-    /* margin: 0px 74px 4px 0px; */
 }
 .main-list_text {
     color: var(--text);
