@@ -93,21 +93,25 @@ ul, p, h4 {
     gap: 50px;
     flex-wrap: wrap;
 }
+.contact_link {
+    color: var(--text);
+}
 
 .main .container {
     padding-bottom: 94px;
     /* outline: 2px dotted blue;
     width: 1200px;  */
+    padding-top: 94px;
 } 
 .btn-cont {
     padding-bottom: 50px;
-    padding-top: 94px;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 8px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     flex-basis: calc((100% - 4*8px) / 5);
 }
 .btn {

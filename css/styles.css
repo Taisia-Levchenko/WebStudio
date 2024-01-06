@@ -93,6 +93,10 @@ ul, p, h1, h3, h4, h5 {
     gap: 50px;
     flex-wrap: wrap;
 }
+.contact_link {
+    color: var(--text);
+}
+
 .section-hero {
     /* width: 1600px;
     height: 600px;  */
@@ -103,6 +107,8 @@ ul, p, h1, h3, h4, h5 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 .section-hero_btn {
     color: var(--place);
@@ -111,7 +117,7 @@ ul, p, h1, h3, h4, h5 {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
-    margin-bottom: 200px; 
+    
     border-radius: 4px;
     width: 216px;
     height: 50px;
@@ -125,7 +131,7 @@ ul, p, h1, h3, h4, h5 {
     letter-spacing: 2.64px;
     margin-bottom: 30px;
     /* width: 696px; */
-    padding-top: 200px;
+    
     text-align: center;
 }
 /* .info {
@@ -154,6 +160,9 @@ ul, p, h1, h3, h4, h5 {
 }
 .info_item {
     flex-basis: calc((100% - 3*30px) / 4);
+}
+.info_text {
+    color: var(--text);
 }
 
 .doings {
@@ -191,7 +200,6 @@ ul, p, h1, h3, h4, h5 {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
-    padding-top: 94px;
     margin-bottom: 50px; 
     text-align: center;
     /* width: 1200px; */
@@ -200,6 +208,7 @@ ul, p, h1, h3, h4, h5 {
     background-color: var(--team);
     /* width: 1600px; */
     padding-bottom: 94px;
+    padding-top: 94px;
     flex-wrap: wrap;
 }
 .team-list {
@@ -248,7 +257,7 @@ ul, p, h1, h3, h4, h5 {
 }
 .footer-place {
     color:var(--place);
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 .footer-list {
     display: flex;
