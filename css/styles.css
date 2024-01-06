@@ -82,7 +82,7 @@ ul, p, h1, h3, h4, h5 {
     letter-spacing: 0.28px;
 }
 .contact_link {
-    color: var(--title);
+    color: var(--text);
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
