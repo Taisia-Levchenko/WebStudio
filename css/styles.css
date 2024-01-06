@@ -88,13 +88,9 @@ ul, p, h1, h3, h4, h5 {
     letter-spacing: 0.28px;
 }
 .header-contact_list {
-    /* margin: 32px 50px; */
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
-}
-.contact_link {
-    color: var(--text);
 }
 
 .section-hero {
