@@ -250,6 +250,9 @@ ul, p, h1, h3, h4, h5 {
     font-size: 16px;
     background-color: var(--background);
 }
+.foot-logo {
+    margin-bottom: 20px;
+}
 .footer-sect {
     flex-direction: column;
     display: flex;
@@ -257,7 +260,6 @@ ul, p, h1, h3, h4, h5 {
 }
 .footer-place {
     color:var(--place);
-    margin-top: 20px;
 }
 .footer-list {
     display: flex;

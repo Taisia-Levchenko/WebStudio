@@ -169,6 +169,9 @@ ul, p, h4 {
 .footer {
     background-color: var(--background);
 }
+.foot-logo {
+    margin-bottom: 20px;
+}
 .footer-sect {
     flex-direction: column;
     display: flex;
@@ -176,7 +179,6 @@ ul, p, h4 {
 }
 .footer-place {
     color: var(--place);
-    margin-top: 20px;
 }
 .footer-list {
     display: flex;
