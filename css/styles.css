@@ -133,9 +133,58 @@ ul, p, h1, h3, h4, h5 {
 /* .info {
     margin-top: 94px;
 } */
+
 .info {
     padding-bottom: 94px;
     padding-top: 94px;
+}
+.it1::before {
+    content: "";
+    display: inline-block;
+    width: 270px;
+    height: 120px;
+    background-image: url(../images/antenna.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    color: var(--team);
+    background-color: var(--team);
+}
+.it2::before {
+    content: "";
+    display: inline-block;
+    width: 270px;
+    height: 120px;
+    background-image: url(../images/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    color: var(--team);
+    background-color: var(--team);
+}
+.it3::before {
+    content: "";
+    display: inline-block;
+    width: 270px;
+    height: 120px;
+    background-image: url(../images/diagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    color: var(--team);
+    background-color: var(--team);
+}
+.it4::before {
+    content: "";
+    display: inline-block;
+    width: 270px;
+    height: 120px;
+    background-image: url(../images/austranat.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    color: var(--team);
+    background-color: var(--team);
 }
 .info_title {
     /* font-size: 36px;
