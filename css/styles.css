@@ -105,7 +105,6 @@ ul, p, h1, h3, h4, h5 {
     align-items: center;
     padding-bottom: 200px;
     padding-top: 200px;
-    background: url(../images/bg-hero.jpg), url(../images/Overlay.png) lightgray 0px -147.517px / 100% 170.667% no-repeat;
 }
 .section-hero_btn {
     color: var(--place);
