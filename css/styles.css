@@ -144,7 +144,7 @@ ul, p, h1, h3, h4, h5 {
     display: inline-block;
     width: 270px;
     height: 120px;
-    background-image: url(../images/antenna.png);
+    background-image: url(../images/it1_antenna.png);
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
@@ -156,7 +156,7 @@ ul, p, h1, h3, h4, h5 {
     display: inline-block;
     width: 270px;
     height: 120px;
-    background-image: url(../images/clock.png);
+    background-image: url(../images/it2_clock.png);
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
@@ -168,7 +168,7 @@ ul, p, h1, h3, h4, h5 {
     display: inline-block;
     width: 270px;
     height: 120px;
-    background-image: url(../images/diagram.png);
+    background-image: url(../images/it3_diagram.png);
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
@@ -180,7 +180,7 @@ ul, p, h1, h3, h4, h5 {
     display: inline-block;
     width: 270px;
     height: 120px;
-    background-image: url(../images/austranat.png);
+    background-image: url(../images/it4_austranat.png);
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
