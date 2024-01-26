@@ -98,7 +98,7 @@ ul, p, h1, h3, h4, h5 {
     height: 600px;  */
     color:var(--place);
     background-color:var(--background);
-    
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bg-hero.jpg');
 }
 .section-hero .container {
     display: flex;
@@ -106,7 +106,7 @@ ul, p, h1, h3, h4, h5 {
     align-items: center;
     padding-bottom: 200px;
     padding-top: 200px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bg-hero.jpg');
+    
 }
 .section-hero_btn {
     color: var(--place);
