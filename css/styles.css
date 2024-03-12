@@ -136,6 +136,13 @@ ul, p, h1, h3, h4, h5 {
     margin-top: 94px;
 } */
 
+
+/* <a>svg </a>
+a.link
+svg.svg
+.link:hover .svg {
+    fill: red;
+} */
 .info {
     padding-bottom: 94px;
     padding-top: 94px;
