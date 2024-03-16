@@ -32,7 +32,7 @@ a:hover {
 ul {
     list-style-type: none;
 }
-ul, p, h4 {
+ul, p, h4, h6{
     margin: 0;
     padding: 0;
 }
@@ -199,7 +199,6 @@ ul, p, h4 {
 .foot-logo {
     margin-bottom: 20px;
 }
-
 .footer-sect {
     flex-direction: column;
     display: flex;
@@ -227,8 +226,7 @@ ul, p, h4 {
 .foot-links {
     text-transform: uppercase;
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
+    padding-top: 10px;
     gap: 10px;
     flex-direction: column;
 }
