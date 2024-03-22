@@ -10,6 +10,7 @@
     --foot: rgba(255, 255, 255, 0.60);
     --svg: rgba(255, 255, 255, 0.1);
     --clients: #afb1b8;
+    --bg-doings: rgba(47, 48, 58, 0.8);
 }
 * {
     box-sizing: border-box;
@@ -211,6 +212,20 @@ ul, p, h1, h3, h4, h5, h6 {
 } 
 .doings-list_item {
     flex-basis: calc((100% - 60px) / 3);
+}
+.doings-list_text{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--place);
+    position: relative;
+    z-index: 3;
+    top: -75px;
+    background-color: var(--bg-doings);
+    padding-top: 27px;
+    padding-bottom: 27px;
 }
 .doings_text {
     color: var(--text);
