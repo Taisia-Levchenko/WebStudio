@@ -272,6 +272,7 @@ ul, p, h4, h6{
 }  */
 .subscribe {
     padding-left: 78px;
+    padding-top: 10px;
 }
 
 .footer-text {
