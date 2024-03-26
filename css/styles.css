@@ -481,7 +481,7 @@ ul, p, h1, h3, h4, h5, h6{
 
 
 .backdrop {
-    display: none;
+    /* display: none; */
     position: fixed;
     top: 0;
     left: 0;
@@ -490,8 +490,12 @@ ul, p, h1, h3, h4, h5, h6{
     background-color: rgba(0, 0, 0, 0.363);
     z-index: 10;
 }
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
 .modal {
-    display: none;
+    /* display: none; */
     position: fixed;
     background: #FFFFFF;
     padding: 40px;

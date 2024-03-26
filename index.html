@@ -69,7 +69,7 @@
             ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />
             ВАШОГО БІЗНЕСУ
           </h1>
-          <button type="button" class="section-hero_btn" data-modal-open click>
+          <button type="button" class="section-hero_btn" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -435,9 +435,9 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-btn" data-modal-close click>
+        <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="close-btn-icon" width="18" height="18">
             <use href="./icons/symbol-defs.svg#icon-close-btn"></use>
           </svg>
@@ -482,7 +482,7 @@
           <input class="input-accept" type="checkbox" id="accept" name="accept" value="accept">
           <label class="label-accept" for="accept"> <span>Погоджуюсь с розсилкою і приймаю <a href="#" class="accept-link">Умови договору</span> </a></label>
         </div>
-        <button class="btn-submit" type="submit">Відправити</button>
+        <button class="btn-submit" type="submit" data-modal-close>Відправити</button>
 
       </div>
     </div>
