@@ -29,7 +29,16 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color:var(--hover)
+    color:var(--hover);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+a:focus {
+    color: var(--hover);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 ul{
     list-style-type: none;
@@ -333,6 +342,8 @@ button {
 
 .svg-list_link:hover .svg-list_svg {
     fill: var(--place);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients {
@@ -363,6 +374,8 @@ button {
 }
 .clients-item:hover .clients-svg {
     fill: var(--hover);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-svg {
     fill: var(--clients);
@@ -400,6 +413,7 @@ button {
 .footer-second-part {
     color:var(--place);
 }
+
 .foot-links {
     text-transform: uppercase;
     display: flex;
@@ -431,6 +445,10 @@ button {
     background-color: #3E454F;
     opacity: 1;
     
+}
+.foot-list_item:hover .foot-list_svg {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foot-list_link:hover {
     background-color: var(--hover);
