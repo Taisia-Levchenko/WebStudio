@@ -17,6 +17,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body class="body">
     <header class="header">
@@ -63,7 +65,7 @@
     </header>
 
     <main class="main">
-      <section class="section-hero">
+      <section class="section-hero" data-aos="zoom-in">
         <div class="container">
           <h1 class="section-hero_title">
             ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />
@@ -74,7 +76,7 @@
           </button>
         </div>
       </section>
-      <section class="info">
+      <section class="info" data-aos="zoom-in">
         <div class="container">
           <ul class="info_list">
             <li class="info_item">
@@ -127,7 +129,7 @@
           </ul>
         </div>
       </section>
-      <section class="doings">
+      <section class="doings" data-aos="zoom-in">
         <div class="container">
           <h3 class="doings-title">Чим ми займаємося</h3>
           <ul class="doings-list">
@@ -159,7 +161,7 @@
         </div>
       </section>
 
-      <section class="team">
+      <section class="team" data-aos="zoom-in">
         <div class="container">
           <h3 class="team-title">Наша команда</h3>
           <ul class="team-list">
@@ -323,7 +325,7 @@
         </div>
       </section>
 
-      <section class="clients">
+      <section class="clients" data-aos="zoom-in">
         <div class="container">
           <h3 class="clients-title">Постійні клієнти</h3>
           <ul class="clients-list">
@@ -362,7 +364,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" data-aos="zoom-in">
       <div class="container">
         <div class="footer-info">
           <div class="foot-logo">
@@ -426,10 +428,18 @@
           <h6 class="footer-text">Погоджуюсь з розсилкою</h6>
           <div class="subscribe-box">
             <label class="subscribe-label" for="subscribe-email"></label>
-            <input class="subscribe-input" type="email" id="subscribe-email" placeholder="E-mail">
-            <button class="subscribe-btn" type="submit">Підписатися <svg class="subscribe-svg" width="24" height="24">
-              <use href="./icons/symbol-defs.svg#icon-telegram"></use>
-            </svg></button>
+            <input
+              class="subscribe-input"
+              type="email"
+              id="subscribe-email"
+              placeholder="E-mail"
+            />
+            <button class="subscribe-btn" type="submit">
+              Підписатися
+              <svg class="subscribe-svg" width="24" height="24">
+                <use href="./icons/symbol-defs.svg#icon-telegram"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
@@ -443,11 +453,11 @@
           </svg>
         </button>
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
-        
+
         <div class="modal-name">
           <label class="modal-label" for="user-name">Ім'я</label>
           <div class="modal-input-wrap">
-            <input class="modal-input" type="text" id="user-name">
+            <input class="modal-input" type="text" id="user-name" />
             <svg class="input-icon" width="12" height="12">
               <use href="./icons/symbol-defs.svg#icon-person"></use>
             </svg>
@@ -457,7 +467,7 @@
         <div class="modal-phone">
           <label class="modal-label" for="user-tel">Телефон</label>
           <div class="modal-input-wrap">
-            <input class="modal-input" type="tel" id="user-tel">
+            <input class="modal-input" type="tel" id="user-tel" />
             <svg class="input-icon" width="13" height="13">
               <use href="./icons/symbol-defs.svg#icon-number"></use>
             </svg>
@@ -467,7 +477,7 @@
         <div class="modal-email">
           <label class="modal-label" for="user-email">Пошта</label>
           <div class="modal-input-wrap">
-            <input class="modal-input" type="email" id="user-email">
+            <input class="modal-input" type="email" id="user-email" />
             <svg class="input-icon" width="15" height="12">
               <use href="./icons/symbol-defs.svg#icon-email"></use>
             </svg>
@@ -476,16 +486,37 @@
 
         <div class="modal-field">
           <label class="modal-label" for="user-comment">Коментар</label>
-          <textarea class="user-comment" name="user-comment" id="user-comment" placeholder="Введіть текст"></textarea>
+          <textarea
+            class="user-comment"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Введіть текст"
+          ></textarea>
         </div>
         <div class="accept-box">
-          <input class="input-accept" type="checkbox" id="accept" name="accept" value="accept">
-          <label class="label-accept" for="accept"> <span>Погоджуюсь с розсилкою і приймаю <a href="#" class="accept-link">Умови договору</span> </a></label>
+          <input
+            class="input-accept"
+            type="checkbox"
+            id="accept"
+            name="accept"
+            value="accept"
+          />
+          <label class="label-accept" for="accept">
+            <span
+              >Погоджуюсь с розсилкою і приймаю
+              <a href="#" class="accept-link">Умови договору</a></span
+            ></label
+          >
         </div>
-        <button class="btn-submit" type="submit" data-modal-close>Відправити</button>
-
+        <button class="btn-submit" type="submit" data-modal-close>
+          Відправити
+        </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

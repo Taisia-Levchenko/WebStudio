@@ -166,7 +166,6 @@ ul, p, h4, h6{
 } 
 .btn-cont {
     padding-bottom: 50px;
-    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -191,6 +190,14 @@ ul, p, h4, h6{
     padding: 6px 22px;
     
 }
+@keyframes jump {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
 .btn:hover{
     color:var(--place);
     background-color: var(--hover);
@@ -198,6 +205,7 @@ ul, p, h4, h6{
     transition-property: background-color, color, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation: jump 1s ease infinite alternate;
 }
 .main-list {
     display: flex;

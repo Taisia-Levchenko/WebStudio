@@ -113,20 +113,19 @@ button {
 }
 .other::after {
     content: "";
-    width: 0%;
-}
-.other:hover::after {
-    content: "";
     display: block;
     color: var(--hover);
     height: 4px;
-    width: 100%;
-    background: var(--hover);
+    width: 0;
+    background-color: var(--hover);
     border-radius: 2px;
     position: absolute;
     left: 0;
     bottom: -34px;
     transition: width 1s ease;
+}
+.other:hover::after {
+    width: 100%;
 }
 .contact_link {
     color: var(--text);

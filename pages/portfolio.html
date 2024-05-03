@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body class="body">
     <header class="header">
@@ -63,7 +65,7 @@
 
     <main class="main">
       <div class="container">
-        <div class="btn-cont">
+        <div class="btn-cont" data-aos="zoom-in">
           <button type="button" class="btn">Усі</button>
           <button type="button" class="btn">Веб-сайти</button>
           <button type="button" class="btn">Додатки</button>
@@ -71,7 +73,7 @@
           <button type="button" class="btn">Маркетинг</button>
         </div>
 
-        <ul class="main-list">
+        <ul class="main-list" data-aos="zoom-in">
           <li class="main-list_item">
             <div class="main-list_imgoverlay">
               <img
@@ -252,7 +254,7 @@
       </div>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" data-aos="zoom-in">
       <div class="container">
         <div class="footer-info">
           <div class="foot-logo">
@@ -332,5 +334,9 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
